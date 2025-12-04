@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Club Registration Form</title>
+</head>
+<body style="background-image: url('https://i.pinimg.com/1200x/44/e6/40/44e6403524ad73d29ba38747229674d7.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+<center> 
+
+<table border="1" cellpadding="5" cellspacing="0" bgcolor="#d6e6ff">
+
+    <tr>
+        <td>Name</td>
+        <td><input type="text" name="surname" placeholder="Surname"></td>
+        <td><input type="text" name="firstname" placeholder="First Name"></td>
+        <td><input type="text" name="middlename" placeholder="Middle Name"></td>
+    </tr>
+
+    <tr>
+        <td>Grade Level</td>
+        <td colspan="3"><input type="text" name="gradelevel"></td>
+    </tr>
+
+    <tr>
+        <td>Section</td>
+        <td colspan="3"><input type="text" name="section"></td>
+    </tr>
+
+    <tr>
+        <td>Address</td>
+        <td><input type="text" name="address_no" placeholder="No."></td>
+        <td><input type="text" name="address_street" placeholder="Street"></td>
+        <td><input type="text" name="address_brgy" placeholder="Barangay"></td>
+    </tr>
+
+    <tr>
+        <td>City</td>
+        <td colspan="3"><input type="text" name="city"></td>
+    </tr>
+
+    <tr>
+        <td>Birthday</td>
+        <td>
+            <select name="month">
+                <option>January</option><option>February</option><option>March</option>
+                <option>April</option><option>May</option><option>June</option>
+                <option>July</option><option>August</option><option>September</option>
+                <option>October</option><option>November</option><option>December</option>
+            </select>
+        </td>
+        <td><input type="number" name="day" placeholder="Day"></td>
+        <td><input type="number" name="year" placeholder="Year"></td>
+    </tr>
+
+    <tr>
+        <td>Age</td>
+        <td colspan="3"><input type="number" name="age"></td>
+    </tr>
+
+    <tr>
+        <td>Contact No.</td>
+        <td colspan="3"><input type="text" name="contact"></td>
+    </tr>
+
+    <tr>
+        <td>E-Mail Add.</td>
+        <td colspan="3"><input type="email" name="email"></td>
+    </tr>
+
+    <tr>
+        <td>Gender</td>
+        <td colspan="3">
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </td>
+    </tr>
+
+    <tr>
+        <td>Class Officer?</td>
+        <td colspan="3">
+            <input type="radio" name="officer" value="yes"> Yes
+            <input type="radio" name="officer" value="no"> No
+            &nbsp;&nbsp; If yes, position:
+            <input type="text" name="position">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Other club involvement</td>
+        <td colspan="3"><input type="text" name="other_club"></td>
+    </tr>
+
+    <tr>
+        <td>Computer knowledge and skills</td>
+        <td colspan="3">
+            <input type="checkbox" name="skills" value="office"> Office Productivity (MS Word, Excel, PPT)<br>
+            <input type="checkbox" name="skills" value="photo"> Photo Editing<br>
+            <input type="checkbox" name="skills" value="web"> Web Designing<br>
+            <input type="checkbox" name="skills" value="hardware"> Computer Hardware Servicing<br>
+            <input type="checkbox" name="skills" value="graphics"> Graphics and Animation<br>
+            <input type="checkbox" name="skills" value="others"> Others (specify): 
+            <input type="text" name="other_skills">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Talents</td>
+        <td colspan="3"><textarea name="talents" rows="2" cols="50"></textarea></td>
+    </tr>
+
+    <tr>
+        <td>Why do you want to join this club?</td>
+        <td colspan="3"><textarea name="why_join" rows="2" cols="50"></textarea></td>
+    </tr>
+
+    <tr>
+        <td>What do you know about this club?</td>
+        <td colspan="3"><textarea name="know_about" rows="2" cols="50"></textarea></td>
+    </tr>
+
+    <tr>
+        <td>What do you expect from this club?</td>
+        <td colspan="3"><textarea name="expect" rows="2" cols="50"></textarea></td>
+    </tr>
+
+    <tr>
+        <td>What can you contribute?</td>
+        <td colspan="3"><textarea name="contribute" rows="2" cols="50"></textarea></td>
+    </tr>
+
+</table>
+
+<br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+<input type="button" value="Print" onclick="window.print()">
+
+</center>
+
+</body>
+</html>
